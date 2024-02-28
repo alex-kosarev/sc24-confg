@@ -7,11 +7,11 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          issuer-uri: ttp://keycloak.selm.ag.192.168.49.2.nip.io/realms/selmag
+          issuer-uri: http://keycloak.selm.ag.192.168.49.2.nip.io/realms/selmag
       client:
         provider:
           keycloak:
-            issuer-uri: ttp://keycloak.selm.ag.192.168.49.2.nip.io/realms/selmag
+            issuer-uri: http://keycloak.selm.ag.192.168.49.2.nip.io/realms/selmag
 keycloak:
   uri: http://keycloak.selm.ag.192.168.49.2.nip.io
 eureka:
