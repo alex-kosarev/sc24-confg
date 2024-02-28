@@ -19,3 +19,7 @@ eureka:
       defaultZone: http://selmag-eureka-server-svc.selmag.svc.cluster.local:8761/eureka/
   instance:
     prefer-ip-address: true
+management:
+  zipkin:
+    tracing:
+      endpoint: http://tempo-svc.selmag.svc.cluster.local:9411/api/v2/spans
