@@ -1,6 +1,5 @@
 eureka:
   instance:
-    hostname: 172.17.0.1
     leaseRenewalIntervalInSeconds: 1
     leaseExpirationDurationInSeconds: 1
   client:
