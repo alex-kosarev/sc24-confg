@@ -8,6 +8,16 @@ spring:
         provider:
           keycloak:
             issuer-uri: http://keycloak.selm.ag.192.168.49.2.nip.io/realms/selmag
+        registration:
+          keycloak:
+            client-id: admin-service-k8s
+            client-secret: rByZmGdBcuu3jiNs3f8TdwkAd9yztO3e
+          login:
+            client-id: admin-service-k8s
+            client-secret: rByZmGdBcuu3jiNs3f8TdwkAd9yztO3e
+          discovery:
+            client-id: admin-service-k8s
+            client-secret: rByZmGdBcuu3jiNs3f8TdwkAd9yztO3e
 eureka:
   client:
     service-url:

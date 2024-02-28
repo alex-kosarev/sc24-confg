@@ -5,6 +5,16 @@ spring:
         provider:
           keycloak:
             issuer-uri: http://keycloak.selm.ag.192.168.49.2.nip.io/realms/selmag
+        registration:
+          keycloak:
+            client-id: manager-app-k8s
+            client-secret: XSjDUQtDKFZfhdloStH8AY1Aphje0Yvm
+          metrics:
+            client-id: manager-app-k8s
+            client-secret: XSjDUQtDKFZfhdloStH8AY1Aphje0Yvm
+          discovery:
+            client-id: manager-app-k8s
+            client-secret: XSjDUQtDKFZfhdloStH8AY1Aphje0Yvm
       resourceserver:
         jwt:
           issuer-uri: http://keycloak.selm.ag.192.168.49.2.nip.io/realms/selmag

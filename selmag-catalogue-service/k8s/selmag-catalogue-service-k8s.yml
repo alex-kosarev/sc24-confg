@@ -1,3 +1,8 @@
+springdoc:
+  swagger-ui:
+    oauth:
+      client-id: catalogue-service-swagger-ui-k8s
+      use-pkce-with-authorization-code-grant: true
 spring:
   datasource:
     url: jdbc:postgresql://catalogue-db-svc.selmag.svc.cluster.local:5432/catalogue
