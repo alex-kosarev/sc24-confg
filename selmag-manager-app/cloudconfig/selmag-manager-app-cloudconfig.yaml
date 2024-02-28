@@ -65,7 +65,6 @@ eureka:
   instance:
     leaseRenewalIntervalInSeconds: 1
     leaseExpirationDurationInSeconds: 1
-    hostname: 172.17.0.1
   client:
     registryFetchIntervalSeconds: 1
     service-url:
